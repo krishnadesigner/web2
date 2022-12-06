@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ============= common css ends ============== */
+
+
+/* ============= navbar css start ============== */
+.navbar{
+    background: #1D202D;
+}
+
+.navbar .navbar-brand{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.navbar .btn{
+    background: #4D657B;
+    padding: 2px 9px !important;
+    border-radius: 0;
+    margin-left: 8px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-size: 13px;
+    color: #fff;
+}
+
+
+.navbar .sign-btn{
+    background: #7800E4;
+}
+.modal .modal-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+    padding-top: 100px;
+}
+
+.modal .head .modal-title a{
+    text-decoration: none;
+    padding: 0 30px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.modal .close{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+
+.modal .box input{
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    padding-bottom: 60px;
+    padding: 10px 0;
+    border-bottom: 1px solid #6b6868;
+}
+
+.modal .modal-header .send-box .form-check{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.modal .modal-header .send-box .form-check .check{
+    margin-right: 10px;
+}
+
+.modal .modal-header .send-box .form-check .btn{
+    margin-left: 100px;
+    padding: 17px 50px;
+}
+
+.modal .modal-header .tag{
+    padding: 0 100px;
+    width: 100%;
+}
+/* ============= navbar css ends ============== */
+
+
+/* ============= banner css start ============== */
+.banner-section{
+    background: #4D0F8B;
+    height: 100vh;
+}
+
+.banner-section .main{
+    padding: 0 30px;
+}
+
+.banner-section .circle{
+    width: 60%;
+    height: 600px;
+    border-radius: 50%;
+    border: 12px solid #6A05C4;
+    position: relative;
+}
+
+.banner-section .circle .info{
+    position: absolute;
+    top: 28%;
+    left: 22%;
+}
+
+.banner-section .circle .info h2{
+    color: #FFD10B;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.banner-section .circle .info p{
+    font-size: 28px;
+    color: white;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.banner-section .slide-log{
+    position: absolute;
+    top: 200px;
+    left: 7%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #6A05C4;
+}
+
+.banner-section .slide-log img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    text-align: center;
+    transform: translate(6%, 5%);
+}
+
+.banner-section .main .slide-dolar{
+    position: absolute;
+    top: 150px;
+    right: 260px;
+}
+
+.banner-section .main .slide-dolar img{
+    width: 120px;
+    height: 120px;
+}
+
+.banner-section .main .slide-flower{
+    position: absolute;
+    top: 170px;
+    right: 0;
+    z-index: 1;
+}
+
+.banner-section .main .slide-flower img{
+    width: 630px;
+    height: 200px;
+}
+
+
+.banner-section .main .slide-fish{
+    position: absolute;
+    bottom: 40px;
+    right: 600px;
+}
+
+.banner-section .main .slide-fish img{
+    width: 100px;
+    height: 100px;
+}
+
+.banner-section .main .slide-dolfin{
+    position: absolute;
+    top: 290px;
+    right: 100px;
+    rotate: 10deg;
+}
+
+.banner-section .main .slide-dolfin img{
+    width: 450px;
+    height: 150px;
+}
+/* ============= banner css ends ============== */

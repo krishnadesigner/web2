@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website create</title>
+
+    <!-- ============ font awesome ============ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- bootstrap 5 ========= -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- ======= custom  css ======= -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- ======= wow css animate link ======== -->
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+    <!-- ============= main section start =============== -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand text-white text-light" href="#">Aleert</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#">How to use</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Comparison</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Docs</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Рус
+
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+              </ul>
+            </li>
+            </ul>
+            <button type="button" class="btn log-btn" data-bs-toggle="modal" data-bs-target="#myModal">
+              Log in
+            </button>
+            <button type="button" class="btn sign-btn" data-bs-toggle="modal" data-bs-target="#myModal">
+              Sign up
+            </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ========== login modal ======== -->
+    <div class="modal bg-white" id="myModal">
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header head">
+            <h4 class="modal-title"><a href="#">login</a></h4>
+            <h4 class="modal-title"><a href="#">login</a></h4>
+          </div>
+
+          <div class="modal-header">
+            <form action="">
+              <div class="box">
+                <label for="" class="form-lable pt-3">username</label>
+                <input type="username" placeholder="login" class="d-block">
+              </div>
+              <div class="box">
+                <label for="" class="form-lable pt-3">Password</label>
+                <input type="password" placeholder="*******" class="d-block">
+              </div>
+              <div class="send-box">
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input check" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                  <button type="submit" class="btn btn-primary">log in</button>
+                </div>
+                <div class="form-check">
+                
+                </div>
+              </div>
+              <p class="text-center pt-3 text-success"><a class="tag" href="#">Lost your password?</a></p>
+          </form>
+          </div>
+          <button type="button" class="btn-close close" data-bs-dismiss="modal"></button>
+
+        </div>
+      </div>
+    </div>
+    <!-- ============ login modal ============= -->
+
+
+    <!-- ============= banner section start =============== -->
+    <div class="banner-section">
+        <div class="container">
+            <div class="main">
+                <div class="circle">
+                  <div class="info">
+                    <h2 class="">Connect <br> TradingView <br> to Binance</h2>
+                    <p>and trade with tricks & <br> indicators -or- TradingView strategies</p>
+                  </div>
+                </div>
+               
+                <div class="slide-log">
+                    <img src="images/mukute.png" alt="">
+                </div>
+
+                <div class="slide-dolar wow bounceInDown" data-wow-duration="3s">
+                    <img src="images/bitcoin-3642042_960_720.png" alt="">
+                </div>
+
+                <div class="slide-flower wow fadeInDown" data-wow-duration="4s">
+                    <img src="images/divider-7617016_960_720.png" alt="">
+                </div>
+
+                  <div class="slide-fish wow bounceInLeft" data-wow-duration="3s">>
+                      <img src="images/goldfish-30837_960_720.png" alt="">
+                  </div>
+
+                  <div class="slide-dolfin wow bounceInUp" data-wow-duration="3s">
+                      <img src="images/dolfin.png" alt="">
+                  </div>
+            </div>
+        </div>
+    </div>
+    <!-- ============= banner section ends =============== -->
+
+    <!-- ============= main section ends =============== -->
+
+    <!--bundle-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+    <!-- ========= bootstrap 5 js ============= -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+    
+     <!-- ========== wow js ============= -->
+     <script src="js/wow.min.js"></script>
+
+    <!-- =========== custom js file ============= -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
